@@ -1,4 +1,4 @@
-import products from '@/api/products.js'
+import products from '../api/products.js'
 // 상품 상세 전용 Vuex 모듈
 export default {
   namespaced: true,

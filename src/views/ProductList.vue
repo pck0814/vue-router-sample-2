@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import products from '../../store/products.js'
+  import products from '../api/products.js'
   export default {
     computed: {
       list: () => products.fetch()

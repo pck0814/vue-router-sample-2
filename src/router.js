@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '@/views/Home'
-import ProductList from '@/views/ProductList' // 상품 목록
-import Product from '@/views/Product' // 상품 정보(부모 라우트)
+import Home from './views/Home'
+import ProductList from './views/ProductList' // 상품 목록
+import Product from './views/Product' // 상품 정보(부모 라우트)
 // Product 자식 라우트들
-import ProductHome from '@/views/Product/Home'
-import ProductReview from '@/views/Product/Review'
-import ProductReviewDetail from '@/views/Product/ReviewDetail'
+import ProductHome from './views/Product/Home'
+import ProductReview from './views/Product/Review'
+import ProductReviewDetail from './views/Product/ReviewDetail'
 
 Vue.use(VueRouter)
 
